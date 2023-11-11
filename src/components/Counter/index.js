@@ -11,7 +11,7 @@ class Counter extends Component{
 
     render(){
         const {count} = this.state
-        return <div>
+        return <div >
             <h1 className=' m-1'>The Button has been clicked <span className='spanElement'>{count} </span>times</h1>
 
             <div >
